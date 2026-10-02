@@ -1,6 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
+
 let pulando = false;
 let fim = false;
 
@@ -85,3 +86,17 @@ const loop = setInterval(() => {
     mostrarGameOver(); // mostra a mensagem e o botão
   }
 }, 10);
+
+
+{
+  const mario = new Image();
+mario.src = "imagens/mario.png";
+}
+
+{
+  mario.src = "images/mario.gif";
+}
+
+{
+  
+}
